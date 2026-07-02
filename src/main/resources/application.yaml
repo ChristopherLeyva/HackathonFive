@@ -5,6 +5,10 @@ spring:
   application:
     name: ms-pedidos
 
+  sql:
+    init:
+      mode: always
+
   r2dbc:
     url: r2dbc:postgresql://${DB_HOST:ep-delicate-night-at23b02k-pooler.c-9.us-east-1.aws.neon.tech}:${DB_PORT:5432}/${DB_NAME:neondb}?sslMode=${DB_SSL_MODE:require}
     username: ${DB_USER:neondb_owner}
