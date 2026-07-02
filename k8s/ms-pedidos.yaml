@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: ms-pedidos
-          image: ms-pedidos:latest
-          imagePullPolicy: IfNotPresent
+          image: christopherleyva/lucas-leyva-m1:1.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 8082
           env:

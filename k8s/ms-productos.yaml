@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: ms-productos
-          image: ms-productos:latest
-          imagePullPolicy: IfNotPresent
+          image: christopherleyva/lucas-leyva-m2:1.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 8081
           env:
